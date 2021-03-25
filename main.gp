@@ -16,7 +16,7 @@ baby_giant(A,g,n) = {
   for(i = 2 , B-1 , gp=gp*g; mapput(baby, gp, i));
   G = ( g^B )^(-1);
   retour=0;
-  \\Puis on cherche les colisions 
+  \\Puis on cherche les collisions 
   for(i=0, B+1,
   	   power = A*(G)^i;
   	   test = mapisdefined(baby, power, &retour);
